@@ -145,6 +145,8 @@ $googleProvider = new GoogleProvider(
 );
 
 $googleProvider->shorten($link);
+
+print_r($link->getShortUrl());
 ```
 
 You can also use the commands provided by this library, look at the help message:
